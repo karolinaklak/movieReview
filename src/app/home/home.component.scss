@@ -11,11 +11,37 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            margin-bottom: 15px;
             h4{
                 text-transform: uppercase;
                 font-weight: bold;
                 border-left: 5px solid #ff9900;
                 padding-left: 10px;
+            }
+            .view-all{
+                color: #ff9900;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+        .movies-thumbnail {
+            display: flex;
+            justify-content: space-between;
+            .movie{
+                .cover{
+                    img{
+                        border-radius: 5px;
+                    }
+                }
+                .detail {
+                    width: 180px;
+                    .name {
+                        font-weight: bold;
+                        height: 50px;
+                        margin-top: 5px;
+                        cursor: pointer;
+                    }
+                }
             }
         }
     }
